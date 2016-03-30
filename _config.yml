@@ -1,14 +1,26 @@
 layout_spectrum: 0.9639183
-typography_spectrum: 0.1057572
+name: Periscopitaly
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.5899715
   brandStrength: 0.8404256
-  saturation: 0.8838862
-  rhythmicContrast: 0.7302878
+  lightness: 0.5252951
+  saturation: 0.7023609
+  rhythmicContrast: 0.4865093
   brandColors:
     - '#014C9B'
     - '#010105'
     - '#F4D10F'
     - '#FF0102'
     - '#D176BC'
-name: Periscopitaly
+typography_spectrum: 0.1057572
